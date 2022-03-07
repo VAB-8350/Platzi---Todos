@@ -22,7 +22,7 @@ const AppUI = () => {
         </header>
         <main>
             {error && <p className="info-state-page">Ups, hay un error</p>}
-            {loading && <img className="changed" src="https://img.icons8.com/plasticine/100/000000/loading-sign.png"/>}
+            {loading && <img className="changed" alt="changed" src="https://img.icons8.com/plasticine/100/000000/loading-sign.png"/>}
             {(!loading && searchedTodos.length) && <p className="info-state-page">Administra tus todos!</p>}
             <TodoList>
                 {searchedTodos.map(todo => (
