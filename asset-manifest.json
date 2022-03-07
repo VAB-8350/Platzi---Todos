@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TODOs/static/css/main.19993834.css",
+    "main.js": "/TODOs/static/js/main.3b577615.js",
+    "static/media/pexels-olya-kobruseva-7818101 (1).jpg": "/TODOs/static/media/pexels-olya-kobruseva-7818101 (1).676f4399717567cff21e.jpg",
+    "index.html": "/TODOs/index.html",
+    "main.19993834.css.map": "/TODOs/static/css/main.19993834.css.map",
+    "main.3b577615.js.map": "/TODOs/static/js/main.3b577615.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19993834.css",
+    "static/js/main.3b577615.js"
+  ]
+}
