@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/task/static/css/main.01875193.css",
-    "main.js": "/task/static/js/main.7b7251fa.js",
-    "static/media/pexels-olya-kobruseva-7818101 (1).jpg": "/task/static/media/pexels-olya-kobruseva-7818101 (1).676f4399717567cff21e.jpg",
-    "index.html": "/task/index.html",
-    "main.01875193.css.map": "/task/static/css/main.01875193.css.map",
-    "main.7b7251fa.js.map": "/task/static/js/main.7b7251fa.js.map"
+    "main.css": "/Platzi---Todos/static/css/main.2e1cc23d.css",
+    "main.js": "/Platzi---Todos/static/js/main.7b7251fa.js",
+    "static/media/pexels-olya-kobruseva-7818101 (1).jpg": "/Platzi---Todos/static/media/pexels-olya-kobruseva-7818101 (1).676f4399717567cff21e.jpg",
+    "index.html": "/Platzi---Todos/index.html",
+    "main.2e1cc23d.css.map": "/Platzi---Todos/static/css/main.2e1cc23d.css.map",
+    "main.7b7251fa.js.map": "/Platzi---Todos/static/js/main.7b7251fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.01875193.css",
+    "static/css/main.2e1cc23d.css",
     "static/js/main.7b7251fa.js"
   ]
 }
