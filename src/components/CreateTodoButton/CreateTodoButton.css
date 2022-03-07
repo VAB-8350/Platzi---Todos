@@ -7,8 +7,22 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
+    border: none;
     background-color: rgba(104, 170, 201, 0.925);
-    position: sticky;
+    position: fixed;
     bottom: 20px;
     left: 20px;
+    z-index: 30;
+    transition: 0.3s;
+    box-shadow: 0 0 20px rgba(90, 90, 90, 0.76);
+}
+
+.button-modal{
+    transform: rotate(45deg);
+    width: 65px;
+    height: 65px;
+    bottom: 17.5px;
+    left: 17.5px;
+    box-shadow: 0 0 20px rgba(196, 30, 30, 0.562);
+    transition: 0.3s;
 }
