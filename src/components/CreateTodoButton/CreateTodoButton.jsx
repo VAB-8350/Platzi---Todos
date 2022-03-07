@@ -3,10 +3,10 @@ import { TodoContext } from '../../TodoContext';
 import './CreateTodoButton.css'
 
 const CreateTodoButton = () => {
-  const { addTodo, openModal } = useContext(TodoContext);
+  const { openForm, openModal } = useContext(TodoContext);
 
   return (
-    <button className={'button-add '+ (openModal && 'button-modal')} onClick={addTodo}></button>
+    <button className={'button-add '+ (openModal && 'button-modal')} onClick={openForm}></button>
   )
 }
 

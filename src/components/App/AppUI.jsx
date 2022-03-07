@@ -5,6 +5,7 @@ import { TodoItem } from "../TodoItem/TodoItem";
 import { TodoList } from "../TodoList/TodoList";
 import { TodoSearch } from "../TodoSearch/TodoSearch";
 import { CreateTodoButton } from "../CreateTodoButton/CreateTodoButton";
+import { TodoForm } from "../TodoForm/TodoForm";
 import { Modal } from "../../Modal";
 import './App.css';
 
@@ -31,7 +32,7 @@ const AppUI = () => {
         </React.Fragment>
         {openModal && 
         <Modal>
-            <p>{searchedTodos[0]?.text}</p>
+            <TodoForm />
         </Modal>}
         <CreateTodoButton />
     </div>
