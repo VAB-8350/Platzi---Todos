@@ -20,16 +20,16 @@ const AppUI = () => {
             <TodoSearch />
         </div>
         </header>
-        <React.Fragment>
+        <main>
             {error && <p className="info-state-page">Ups, hay un error</p>}
-            {loading && <p className="info-state-page">Cargando todos...</p>}
+            {loading && <img className="changed" src="https://img.icons8.com/plasticine/100/000000/loading-sign.png"/>}
             {(!loading && searchedTodos.length) && <p className="info-state-page">Administra tus todos!</p>}
             <TodoList>
                 {searchedTodos.map(todo => (
                     <TodoItem key={todo.text} todo={todo}/>
                 ))}
             </TodoList>
-        </React.Fragment>
+        </main>
         {openModal && 
         <Modal>
             <TodoForm />
